@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+	int age;
+    printf("Enter your age\n");
+    
+    scanf("%d",&age);
+    printf("you have entered %d as your age\n",age);
+    if (age>=18) {
+    	printf("You can vote");
+	}
+	else if (age>3)
+	{
+		printf("You are between 3 to 10 nd you can vote for babies");
+	}
+	else{
+		printf("you cannot vote");
+	}
+    return 0;
+}
+
+
+//maths and science - 45
+//science - 15
+//maths -15
+
+//print the type of gift you are giving to them 
+
